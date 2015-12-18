@@ -1,0 +1,259 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+h2{font-size: 24px;}
+img{max-width: 100%;}
+body{font-family: 'Lato', sans-serif;}
+.wrapper {}
+
+.top_header_area {height: 22px;background: #000000;}
+
+.main_header_area {height: 170px;background: #FFF;}
+
+.menu_area {background: #000000;}
+
+.menu_area #nav {text-align: center;}
+
+.menu_area #nav {
+    margin: 0px;
+    padding: 15px 20px;
+}
+.menu_area #nav li {
+display: inline-block;}
+.menu_area #nav li a{
+color: #FFF;padding: 15px 20px;}
+.menu_area #nav li a:hover{
+    background: #3E3D3D;
+    text-decoration: none;
+}
+
+.slider_area {height: 450px;background: #FFFFFF;padding-top: 15px;}
+
+.main_area{}
+
+.catagory_post_area {}
+
+.single_catagory {}
+
+.catgory_tittle, .latest_post_area_tittle, .popular_post_tittle, .social_link_tittle, .testimonial_tittle {border-bottom: 4px solid #BF064F;margin-bottom: 10px;padding: 0px;}
+
+.catgory_tittle > h2 {font-size: 24px;margin: 0px;background: #000000;padding: 5px;color: #FFFFFF;}
+
+.catagory_thumbnail {}
+
+.catagory_thumbnail > img {width: 500px;height: 200px;}
+
+.catagory_content {}
+
+.catagory_content > h3 {}
+
+.catagory_content > h3 > span {}
+
+.catagory_content > p {}
+
+.catagory_list {padding: 5px 0px 10px;margin: 0px;background: #FFFFFF;margin-bottom: 1px;}
+.catagory_list article{
+    height: 86px;
+    clear: both;
+}
+.catagory_list article > img {float: left;clear: both;margin-right: 9px;border: 1px solid #FFF;}
+
+.catagory_list article > h4 {display: block;position: relative;padding-top: 2px;}
+
+.catagory_list article > p {}
+
+.feature_post_area {}
+
+.advertise_one_area {}
+
+.main_section{}
+
+.left_section{}
+
+.latest_post_area {height: 1000px;}
+.advertise_thumb{
+    height: 400px;
+}
+.advertisement_2nd{background: #d9edf7;height: 80px;margin: 20px 0px;}
+.latest_post_area_tittle{
+    margin: 10px 7px;
+}
+.latest_post_area_tittle h3{font-size: 24px;      margin: 0px;      background: rgb(0, 0, 0);      padding: 5px;      color: #FFF;}
+
+.single_latest_post {    width: 48%;float: left;margin: 7px;}
+
+.latest_post_thumbnail {}
+
+.latest_post_thumbnail > img {width: 500px;height: 200px;}
+
+.latest_post_articale {}
+
+.latest_post_articale > p {text-align: center;padding: 10px 10px 0px;font-size: 12px;}
+
+.latest_post_articale > h3 {text-align: center;padding: 0px;margin: 0px;}
+
+.widget_area {}
+
+.catagory {float: left;clear: both;display: block;position: relative;width: 100%;margin-bottom: 30px;}
+
+.catagory > ul {margin: 0px;padding: 0px;list-style: none;}
+
+.catagory > ul > li {display: block;margin-bottom: 1px;border-bottom: 1px solid rgb(232, 232, 232);background: rgba(0, 0, 0, 0.02);}
+
+.catagory > ul > li > a {display: block;color: #000;padding: 8px 10px;font-size: 18px;text-transform: uppercase;}
+
+.catagpry_tittle {border-bottom: 5px solid #BF064F;margin-bottom: 0px;}
+
+.catagpry_tittle > h2 {font-size: 24px;margin: 0px;      background: rgb(0, 0, 0);      padding: 5px;      color: #FFF;}
+
+.polular_post {float: left;clear: both;display: block;position: relative;width: 100%;margin-bottom: 40px;}
+
+.polular_post > h3 {}
+
+.polular_post > p {}
+
+.popular_post_tittle {}
+
+.popular_post_tittle > h2{
+    font-size: 24px;
+    margin: 0px;
+    background: rgb(0, 0, 0);
+    padding: 5px;
+    color: #FFF;
+}
+.popular_post_articale {}
+
+.popular_post_articale > img {float: left;width: 100px;height: 62px;margin-right: 5px;}
+
+.social_link {
+    clear: both;
+}
+
+.social_link > .social_link_articale {}
+
+.social_link > .social_link_articale > ul {list-style: none;margin: 0px;padding: 0px;margin: 0px auto;}
+
+.social_link > .social_link_articale > ul > li {display: inline-block;width: 50px;text-align: center;font-size: 30px;border: 2px solid #BF064F;background: #080808;}
+
+.social_link > .social_link_articale > ul > li > a {}
+
+.social_link_tittle {}
+
+.social_link_tittle h2{
+    font-size: 24px;
+    margin: 0px;
+    background: #000000;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.social_link i{color: #FFFFFF;}
+
+.social_link i .fa {}
+
+.social_link i .fa-facebook {}
+
+.testimonial {
+    margin-top: 20px;
+}
+
+.testimonial_tittle {}
+.testimonial_tittle h2{
+	font-size: 24px;
+    margin: 0px;
+    background: #000000;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.testimonial_content {}
+
+.testimonial_articale {
+    border: 1px solid #F52D7C;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.testimonial_articale p{
+padding: 0px;margin: 0px;}
+.testimonial_articale section{
+text-align: right;}
+.testimonial_articale section p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.testimonial_articale section img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #CA169B;
+}
+.testimonial_client {}
+
+.testimonial_client > img {}
+
+.footer_area {background: #000;padding: 50px 0px;border-top: 10px solid #003F3F;}
+
+.single_footer {
+    width: 360px;
+}
+
+.single_footer > address {
+    color: #929292;
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 20px;
+}
+
+.single_footer > img {
+    opacity: .5;
+    margin: 0px auto;
+    display: block;
+}
+
+.single_footer > form {
+margin-top: 30px;}
+
+.single_footer > form > input[type="text"] {
+    width: 80%;
+    height: 42px;
+    float: right;
+    padding: 9px;
+    font-size: 15px;
+    background: #40383B;
+    color: #FFF;
+    outline: 0px;
+    border: 0px;
+}
+.single_footer > form > input[type="text"]:focus{
+	background: #693763;
+}
+.single_footer > form > input[type="submit"] {
+    width: 80%;
+    height: 40px;
+    float: right;
+    margin-top: 6px;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 0px;
+    background: #003F3F;
+    outline: 0px;
+    border: 1px solid #000;
+    color: #CCA1A1;
+}
+.single_footer > form > input[type="submit"]:hover{
+	background: #2C5775;
+	color: #d9edf7;
+}
+
+
+/*------------------------Slider-----------------------------------*/
+
+.slider {height: 400px;clear: both;padding: 0px;padding-left: 15px;}
+.slider .item{
+}
+.slider .item img{
+    width: 100%;
+    height: 400px;
+}
+.slider .item .content{}
+.carousel-caption {position: absolute;width: 100%;height: 145px;left: 0px;bottom: 0px;padding: 5px 15px;background: rgba(0, 0, 0, 0.47);}
